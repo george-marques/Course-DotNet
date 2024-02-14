@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 using Course.Entities.Enums;
+using System.Collections.Generic;
 
 namespace Course.Entities
 {
@@ -13,21 +14,17 @@ namespace Course.Entities
         public string Nome { get; set; }
         public Telefone Telefone { get; set; }
 
-        public Sexo Sexo { get; set; }
-
-
         public Pessoa() { }
 
-        public Pessoa(string nome, Telefone telefone, Sexo sexo)
+        public Pessoa(string nome, Telefone telefone)
         {
             Nome = nome;
             Telefone = telefone;
-            Sexo = sexo;
         }
 
         public override string ToString()
         {
-            return $"Name: {Nome}, Telefone: {Telefone}, Sexo: {Sexo}";
+            return $"Name: {Nome}, Telefone: {Telefone}";
         }
 
 
