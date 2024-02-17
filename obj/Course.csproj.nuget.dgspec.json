@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\georg\\Console\\Course\\Course.csproj": {}
+    "C:\\Users\\Jorgin\\source\\Course-DotNet\\Course.csproj": {}
   },
   "projects": {
-    "C:\\Users\\georg\\Console\\Course\\Course.csproj": {
+    "C:\\Users\\Jorgin\\source\\Course-DotNet\\Course.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\georg\\Console\\Course\\Course.csproj",
+        "projectUniqueName": "C:\\Users\\Jorgin\\source\\Course-DotNet\\Course.csproj",
         "projectName": "Course",
-        "projectPath": "C:\\Users\\georg\\Console\\Course\\Course.csproj",
-        "packagesPath": "C:\\Users\\georg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\georg\\Console\\Course\\obj\\",
+        "projectPath": "C:\\Users\\Jorgin\\source\\Course-DotNet\\Course.csproj",
+        "packagesPath": "C:\\Users\\Jorgin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jorgin\\source\\Course-DotNet\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\georg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jorgin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

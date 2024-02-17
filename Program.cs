@@ -21,6 +21,7 @@ do
         case 1:
             Console.WriteLine("\n1- Cadastrar");
             Console.WriteLine("2- Imprimir");
+            Console.WriteLine("3- Ordenar");
             Console.Write("Informe a opção: ");
             int opcPf = int.Parse(Console.ReadLine());
 
@@ -29,9 +30,13 @@ do
                 pf.LerDados();
                 pessoas.Add(pf);
             }
-            else
+            else if (opcPf == 2)
             {
                 pf.ImprimirLista();
+            }
+            else
+            {
+                pf.OrdenarPorNome();
             }
 
             break;
@@ -59,7 +64,7 @@ do
             {
                 Console.WriteLine(item);
             }
-            
+
             break;
 
         case 4:

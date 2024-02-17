@@ -14,7 +14,7 @@ namespace Course.Entities
         public Sexo Sexo { get; set; }
 
         public List<PessoaFisica> Lista { get; set; } = new List<PessoaFisica>();
-        public PessoaFisica() { }  
+        public PessoaFisica() { }
 
         public PessoaFisica(string nome, Telefone telefone, string cpf, DateTime dataNascimento, Sexo sexo) : base(nome, telefone)
         {
@@ -52,6 +52,17 @@ namespace Course.Entities
             {
                 Console.WriteLine(item.ToString());
             }
+        }
+
+        public void OrdenarPorNome()
+        {
+            List<PessoaFisica> resultado = Lista.OrderBy(p => p.Nome).ToList();
+
+            foreach (var item in resultado)
+            {
+                Console.WriteLine($"{item.ToString()}");
+            }
+
         }
 
         public override string ToString()
